@@ -9,6 +9,4 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface TripRepository extends ElasticsearchRepository<Trip, Long> {
     // Optional custom methods specific to Trip searches
-
-
 }

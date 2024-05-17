@@ -20,6 +20,7 @@ import java.util.Optional;
 @Data
 public class TripService {
     private final TripRepository tripRepository;
+
     public void save(final Trip trip){
         tripRepository.save(trip);
     }
